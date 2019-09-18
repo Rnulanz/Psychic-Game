@@ -3,17 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Psychic Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assests/css/style.css">
     </head>
     <body>
-        <div>
-        <p id="directions-text">Pick any letter that you think I picked.</p>
-        <p id="whatImThinking-text"></p>
-        <p id="wins-text"></p>
-        <p id="losses-text"></p>
-        <p id="guessesLeft-text"></p>
-        <p id="guessesSoFar-text"></p>
-        </div>
-
+        <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="jumbotron">
+                            <header>DO YOU EVEN KNOW ME!</header>
+                        </div>
+                    </div>
+                </div>    
+                <div class="row">  
+                    <div class="col-12">  
+                        <div class="output">
+                            <p id="directions-text">Pick any letter in the alphabet from a to z.</p>
+                            <p id="whatImThinking-text"></p>
+                            <p id="wins-text"></p>
+                            <p id="losses-text"></p>
+                            <p id="guessesLeft-text"></p>
+                            <p id="guessesSoFar-text"></p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-4"><img class="wizard" src="assests/images/the-old-curiositshop-image2.jpg"> </div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                </div>                
+        </div>        
         <script src="assests/JS/game.js"></script>
     </body>
 </html>

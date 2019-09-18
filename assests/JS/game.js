@@ -3,7 +3,7 @@
 
  var wins= 0;
  var losses= 0;
- var left= 9;
+ var left= 20;
  var yourletters=[];
  
  var directionsText = document.getElementById("directions-text");
@@ -27,7 +27,7 @@
          if (left <= 0){
          losses++;
          yourletters= [];
-         left = 9;
+         left = 20;
 
 
      }
@@ -47,4 +47,4 @@
  
      }
 
-
+     

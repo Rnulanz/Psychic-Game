@@ -1,0 +1,23 @@
+body{
+    background-color: chartreuse;
+}
+
+.jumbotron{
+    font-size: 40px;
+    color: fuchsia;
+    background: black;
+    text-align: center;
+
+}
+
+.output{
+    font-size: 30px;
+    color: turquoise;
+    background: red;
+    text-align: center;
+}
+
+.wizard{
+    width: 100%;
+    height: 100%;
+}
