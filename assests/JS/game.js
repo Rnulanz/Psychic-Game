@@ -3,7 +3,7 @@
 
  var wins= 0;
  var losses= 0;
- var left= 20;
+ var left= 10;
  var yourletters=[];
  
  var directionsText = document.getElementById("directions-text");
@@ -27,7 +27,7 @@
          if (left <= 0){
          losses++;
          yourletters= [];
-         left = 20;
+         left = 10;
 
 
      }
@@ -40,10 +40,10 @@
      }
      directionsText.textContent = "";
      whatImThinkingText.textContent= "Guess what letter I am thinking!!!";
-     winsText.textContent = "wins " + wins;
-     lossesText.textContent = "losses: " + losses;
-     guessesLeftText.textContent = "Guesses Left " + left;
-     guessesSoFarText.textContent = "Letters " + yourletters;
+     winsText.textContent = "Wins: " + wins;
+     lossesText.textContent = "Losses: " + losses;
+     guessesLeftText.textContent = "Guesses Left: " + left;
+     guessesSoFarText.textContent = "Letters: " + yourletters;
  
      }
 
