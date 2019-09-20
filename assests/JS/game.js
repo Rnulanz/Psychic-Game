@@ -22,6 +22,8 @@
      
      if (userGuess2 === computerGuess){
          wins++;
+         yourletters=[];
+         left =10;
      }
      else {
          if (left <= 0){
